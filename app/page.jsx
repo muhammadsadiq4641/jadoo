@@ -1,6 +1,7 @@
 "use client";
 import Navbar from "./navbar";
 import Hero from "./hero";
+import Category from "./category";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <Navbar />
         <Hero />
       </div>
+      <Category />
     </>
   );
 }
