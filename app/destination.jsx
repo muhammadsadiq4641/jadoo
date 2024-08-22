@@ -18,9 +18,9 @@ const Destination = () => {
 
       {/* grid section  */}
 
-      <div className="grid mt-20 grid-cols-3">
-        <div className="w-[400px]  shadow-md rounded-3xl">
-          <Image className="w-[400px]" src={Rome} />
+      <div className="grid mt-20 justify-items-center max-lg:grid-cols-2 max-md:grid-cols-1 gap-14 grid-cols-3">
+        <div className="2xl:w-[400px] w-72  shadow-md rounded-3xl">
+          <Image draggable="false" className="2xl:w-[400px] w-72" src={Rome} />
           <div className="flex  px-10 pt-8 items-center text-[#5E6282] text-lg font-bold justify-between">
             <p>Rome, Italty</p>
             <p>$5,42k</p>
@@ -31,8 +31,8 @@ const Destination = () => {
           </div>
         </div>
 
-        <div className="w-[400px]  shadow-md rounded-3xl">
-          <Image className="w-[400px]" src={LonDon} />
+        <div className="2xl:w-[400px] w-72  shadow-md rounded-3xl">
+          <Image draggable="false" className="2xl:w-[400px] w-72" src={LonDon} />
           <div className="flex  px-10 pt-8 items-center text-[#5E6282] text-lg font-bold justify-between">
             <p>London, UK</p>
             <p>$4.2k</p>
@@ -43,8 +43,8 @@ const Destination = () => {
           </div>
         </div>
 
-        <div className="w-[400px]  shadow-md rounded-3xl">
-          <Image className="w-[400px]" src={Europe} />
+        <div className="2xl:w-[400px] w-72  shadow-md rounded-3xl">
+          <Image draggable="false" className="2xl:w-[400px] w-72" src={Europe} />
           <div className="flex  px-10 pt-8 items-center text-[#5E6282] text-lg font-bold justify-between">
             <p>Full Europe</p>
             <p>$15k</p>
