@@ -16,6 +16,9 @@ module.exports = {
         xl: "1200px",
         xxl: "1400px",
       },
+      height: {
+        calC100: "calc(100vh - 80px)",
+      },
       backgroundImage: {
         bodyBG: "url('/images/bg.png')",
         heroBG: "url('/images/heroBG.png')",

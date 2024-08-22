@@ -6,27 +6,27 @@ import { IoPlaySharp } from "react-icons/io5";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto px-1">
-      <div className="flex max-md:flex-col items-center">
+    <div className="container mx-auto ">
+      <div className="flex max-md:flex-col items-center h-calC100 ">
         <div className="md:flex-1">
-          <p className="text-[#DF6951] sm:text-xl text-md sm:pb-10 pb-2 max-sm:mt-4 font-extrabold tracking-wide uppercase">
+          <p className="text-[#DF6951] sm:text-xl text-md lg:pb-10 pb-2 max-sm:mt-4 font-extrabold tracking-wide uppercase">
             Best Destinations around the world
           </p>
           <div className="flex items-center gap-3">
             <div>
-              <h1 className="lg:text-[90px] sm:text-[60px] text-[40px] font-bold font-Volkhov text-[#181E4B] leading-10 ">
+              <h1 className="lg:text-[84px] sm:text-[60px] text-[40px] font-bold font-Volkhov text-[#181E4B] leading-10 ">
                 Travel,
               </h1>
             </div>
             <div>
-              <h1 className="lg:text-[90px] sm:text-[60px] text-[40px] z-10 font-bold font-Volkhov text-[#181E4B] leading-10 ">
+              <h1 className="lg:text-[84px] sm:text-[60px] text-[40px] z-10 font-bold font-Volkhov text-[#181E4B] leading-10 relative">
                 enjoy
               </h1>
-              <Image className="sm:-mt-9 enjoy-img -mt-7 -ms-4 absolute lg:w-[385px] sm:w-[250px] w-[200px] -z-2" src={Heroenjoy} />
+              <Image className="sm:-mt-9 enjoy-img -mt-7 -ms-4 absolute lg:w-[385px] sm:w-[250px] w-[200px] " src={Heroenjoy} />
             </div>
           </div>
           <div>
-            <h1 className="lg:text-[90px] sm:text-[60px] text-[40px] font-bold font-Volkhov text-[#181E4B] leading-tight -my-5 ">
+            <h1 className="lg:text-[84px] sm:text-[60px] text-[40px] font-bold font-Volkhov text-[#181E4B] leading-tight -my-5 ">
               and live a new and full life
             </h1>
             <p className="text-[#5E6282] text-base capitalize font-medium sm:w-[477px] mt-7 leading-8">
@@ -50,7 +50,7 @@ const Hero = () => {
 
         {/* asd */}
 
-        <div className="md:flex-1 ">
+        <div className="md:flex-1 md:justify-start md:flex">
           <Image className="max-md:w-[300px]" src={HeroGirl} />
         </div>
       </div>
