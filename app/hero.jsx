@@ -1,10 +1,33 @@
-import React from "react";
 import Heroenjoy from "../public/assets/hero-enjoy-img.png";
 import HeroGirl from "../public/assets/hero-girl-img.png";
 import Image from "next/image";
 import { IoPlaySharp } from "react-icons/io5";
+import React, { useState, useEffect } from "react";
+import { RiArrowUpSLine } from "react-icons/ri";
 
 const Hero = () => {
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <div className="container mx-auto ">
       <div className="flex max-md:flex-col items-center h-calC100 ">
@@ -22,7 +45,10 @@ const Hero = () => {
               <h1 className="lg:text-[84px] sm:text-[60px] text-[40px] z-10 font-bold font-Volkhov text-[#181E4B] leading-10 relative">
                 enjoy
               </h1>
-              <Image className="sm:-mt-9 enjoy-img -mt-7 -ms-4 absolute lg:w-[385px] sm:w-[250px] w-[200px] " src={Heroenjoy} />
+              <Image draggable="false"
+                className="sm:-mt-9 enjoy-img -mt-7 -ms-4 absolute lg:w-[385px] sm:w-[250px] w-[200px] "
+                src={Heroenjoy}
+              />
             </div>
           </div>
           <div>
@@ -43,7 +69,9 @@ const Hero = () => {
               <span className="flex justify-center items-center text-white bg-[#DF6951] rounded-full sm:w-[50px] w-[30px] h-[30px] sm:h-[50px]">
                 <IoPlaySharp />
               </span>
-              <p className="text-[#686D77] text-[17px] font-medium pt-5">Play Demo</p>
+              <p className="text-[#686D77] text-[17px] font-medium pt-5">
+                Play Demo
+              </p>
             </div>
           </div>
         </div>
@@ -51,8 +79,20 @@ const Hero = () => {
         {/* asd */}
 
         <div className="md:flex-1 md:justify-start md:flex">
-          <Image className="max-md:w-[300px]" src={HeroGirl} />
+          <Image draggable="false" className="max-md:w-[300px]" src={HeroGirl} />
         </div>
+      </div>
+      <div>
+        {/* Your Hero section content here */}
+
+        {showButton && (
+          <div
+            onClick={handleClick }
+            className="fixed max-sm:right-4 max-sm:bottom-4  bottom-12 right-12 bg-black text-white p-2 rounded cursor-pointer transition-all"
+          >
+            <RiArrowUpSLine />
+          </div>
+        )}
       </div>
     </div>
   );

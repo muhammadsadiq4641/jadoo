@@ -12,7 +12,7 @@ const Category = () => {
   return (
     <div className="container mx-auto mt-20">
       <div className="text-xl font-bold text-[#5E6282] text-center relative">
-        <Image className="absolute -z-10 right-0" src={CategoryIMG}/>
+        <Image draggable="false" className="absolute -z-10 max-md:w-20 right-0" src={CategoryIMG}/>
         <p>CATEGORY</p>
         <h1 className="font-Volkhov sm:text-5xl text-2xl font-black">
           We Offer Best Services
@@ -20,23 +20,23 @@ const Category = () => {
       </div>
       <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 content-center justify-items-center gap-14 sm:mt-40 mt-10">
         <div className="w-[267px]"> 
-            <Image src={Calculator} alt="calculated weather" className="mx-auto mb-8"/>
+            <Image draggable="false" src={Calculator} alt="calculated weather" className="mx-auto mb-8"/>
             <h4 className="text-xl font-bold text-center mb-5">Calculated Weather </h4>
             <p className="text-base font-normal text-center text-[#5E6282] w-44 mx-auto">Built Wicket longer admire do barton vanity itself do in it.</p>
         </div>
         <div className="w-[267px] shadow-lg bg-white rounded-3xl  relative">
-            <Image src={Flight} alt="calculated weather" className="mx-auto mb-8"/>
+            <Image draggable="false" src={Flight} alt="calculated weather" className="mx-auto mb-8"/>
             <h4 className="text-xl font-bold text-center mb-5">Calculated Weather </h4>
             <p className="text-base font-normal text-center text-[#5E6282] w-44 mx-auto">Built Wicket longer admire do barton vanity itself do in it.</p>
-            <Image className="absolute max-sm:w-16 -z-20 max-sm:-left-5 max-sm:-bottom-5 -left-10 -bottom-7" src={RectangleRed}/>
+            <Image draggable="false" className="absolute max-sm:w-16 -z-20 max-sm:-left-5 max-sm:-bottom-5 -left-10 -bottom-7" src={RectangleRed}/>
         </div>
         <div className="w-[267px]">
-            <Image src={LocalEvent} alt="calculated weather" className="mx-auto mb-8"/>
+            <Image draggable="false" src={LocalEvent} alt="calculated weather" className="mx-auto mb-8"/>
             <h4 className="text-xl font-bold text-center mb-5">Calculated Weather </h4>
             <p className="text-base font-normal text-center text-[#5E6282] w-44 mx-auto">Built Wicket longer admire do barton vanity itself do in it.</p>
         </div>
         <div className="w-[267px]">
-            <Image src={Customization} alt="calculated weather" className="mx-auto mb-8"/>
+            <Image draggable="false" src={Customization} alt="calculated weather" className="mx-auto mb-8"/>
             <h4 className="text-xl font-bold text-center mb-5">Calculated Weather </h4>
             <p className="text-base font-normal text-center text-[#5E6282] w-44 mx-auto">Built Wicket longer admire do barton vanity itself do in it.</p>
         </div>
