@@ -2,6 +2,7 @@
 import Navbar from "./navbar";
 import Hero from "./hero";
 import Category from "./category";
+import Destination from "./destination";
 export default function Home() {
   return (
     <>
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
       </div>
       <Category />
+      <Destination />
     </>
   );
 }
