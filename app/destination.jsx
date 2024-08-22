@@ -9,7 +9,7 @@ import Image from "next/image";
 const Destination = () => {
   return (
     <div className="container mx-auto pb-10">
-      <div className="text-xl mt-52 font-bold text-[#5E6282] text-center relative">
+      <div className="text-xl sm:mt-52 mt-14 font-bold text-[#5E6282] text-center relative">
         <p>Top Selling</p>
         <h1 className="font-Volkhov sm:text-5xl text-2xl font-black">
           Top Destinations
@@ -43,7 +43,8 @@ const Destination = () => {
           </div>
         </div>
 
-        <div className="2xl:w-[400px] w-72  shadow-md rounded-3xl">
+        <div className="2xl:w-[400px] w-72 relative shadow-md bg-white rounded-3xl">
+            <Image draggable="false" className="absolute max-sm:hidden -right-16 bottom-16 -z-10" src={Decoration}/>
           <Image draggable="false" className="2xl:w-[400px] w-72" src={Europe} />
           <div className="flex  px-10 pt-8 items-center text-[#5E6282] text-lg font-bold justify-between">
             <p>Full Europe</p>

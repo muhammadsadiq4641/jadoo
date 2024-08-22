@@ -88,7 +88,7 @@ const Hero = () => {
         {showButton && (
           <div
             onClick={handleClick }
-            className="fixed max-sm:right-4 max-sm:bottom-4  bottom-12 right-12 bg-black text-white p-2 rounded cursor-pointer transition-all"
+            className="fixed max-sm:right-4 max-sm:bottom-4 z-50 bottom-12 right-12 bg-black text-white p-2 rounded cursor-pointer transition-all"
           >
             <RiArrowUpSLine />
           </div>
