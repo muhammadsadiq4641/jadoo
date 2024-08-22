@@ -7,7 +7,7 @@ import BookYourTrip from "./bookYourTrip";
 export default function Home() {
   return (
     <>
-      <div className="bg-NavBG h-screen bg-no-repeat bg-right-top bg-contain">
+      <div className="bg-NavBG px-2 h-screen bg-no-repeat bg-right-top bg-contain">
         <Navbar />
         <Hero />
       </div>

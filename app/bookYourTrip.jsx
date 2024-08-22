@@ -22,9 +22,14 @@ const BookYourTrip = () => {
                 <Image draggable="false" src={ChooseDestination} />
               </div>
               <div className="-mb-4">
-                <h2 className="text-base font-black text-[#5E6282] leading-3">Choose Destination</h2>
-                <p className="text-[#5e6282b4] w-[327px] max-sm:w-full text-base font-normal leading-4"> Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit. Urna, tortor tempus. </p>
+                <h2 className="text-base font-black text-[#5E6282] leading-3">
+                  Choose Destination
+                </h2>
+                <p className="text-[#5e6282b4] w-[327px] max-sm:w-full text-base font-normal leading-4">
+                  {" "}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                  tortor tempus.{" "}
+                </p>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -32,9 +37,14 @@ const BookYourTrip = () => {
                 <Image draggable="false" src={MakePayment} />
               </div>
               <div className="-mb-4">
-                <h2 className="text-base font-black text-[#5E6282] leading-3">Make Payment</h2>
-                <p className="text-[#5e6282b4] w-[327px] max-sm:w-full text-base font-normal leading-4"> Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit. Urna, tortor tempus. </p>
+                <h2 className="text-base font-black text-[#5E6282] leading-3">
+                  Make Payment
+                </h2>
+                <p className="text-[#5e6282b4] w-[327px] max-sm:w-full text-base font-normal leading-4">
+                  {" "}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                  tortor tempus.{" "}
+                </p>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -42,9 +52,14 @@ const BookYourTrip = () => {
                 <Image draggable="false" src={ReachAirport} />
               </div>
               <div className="-mb-4">
-                <h2 className="text-base font-black text-[#5E6282] leading-3">Reach Airport on Selected Date</h2>
-                <p className="text-[#5e6282b4] w-[327px] max-sm:w-full text-base font-normal leading-4"> Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit. Urna, tortor tempus. </p>
+                <h2 className="text-base font-black text-[#5E6282] leading-3">
+                  Reach Airport on Selected Date
+                </h2>
+                <p className="text-[#5e6282b4] w-[327px] max-sm:w-full text-base font-normal leading-4">
+                  {" "}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                  tortor tempus.{" "}
+                </p>
               </div>
             </div>
           </div>
