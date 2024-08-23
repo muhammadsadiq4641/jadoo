@@ -16,14 +16,14 @@ const Inputz = () => {
   };
 
   return (
-    <div className="bg-InputBG bg-no-repeat bg-right-bottom bg-auto">
+    <div className="bg-InputBG bg-no-repeat bg-right-bottom bg-auto ">
       <div className="container mx-auto">
         <div className="relative">
           <Image
             className="absolute w-full lg:h-[400px] h-[300px]"
             src={InputIMG}
           />
-          <Image className="absolute -right-5 -top-5" src={InputTelegram} />
+          <Image className="absolute max-sm:hidden -right-5 -top-5" src={InputTelegram} />
           <div className="flex flex-col justify-center items-center  lg:h-[400px] h-[300px]">
             <h2 className="text-[#5E6282] text-[33px] font-semibold lg:w-[881px] sm:w-[500px] w-full px-5 max-lg:text-xl  text-center">
               Subscribe to get information, latest news and other interesting

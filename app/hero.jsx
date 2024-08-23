@@ -37,7 +37,7 @@ const Hero = () => {
           </p>
           <div className="flex items-center gap-3">
             <div>
-              <h1 className="lg:text-[84px] sm:text-[60px] text-[40px] font-bold font-Volkhov text-[#181E4B] leading-10 ">
+              <h1 className="lg:text-[84px] sm:text-[60px] text-[40px] font-bold font-Volkhov text-[#181E4B] leading-tight  ">
                 Travel,
               </h1>
             </div>
