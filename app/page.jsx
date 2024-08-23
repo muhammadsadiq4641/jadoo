@@ -6,6 +6,7 @@ import Destination from "./destination";
 import BookYourTrip from "./bookYourTrip";       
 import Testimonial from "./testimonial";
 import Testimonial2 from "./testimonial2";
+import Inputz from "./input";
 import Axon from "./axon";
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Testimonial2 />
       </div>
       <Axon />
+      <Inputz />
     </>
   );
 }

@@ -6,6 +6,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import { RiMenu3Fill } from "react-icons/ri";
 import Drawer from "./drawer";
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 

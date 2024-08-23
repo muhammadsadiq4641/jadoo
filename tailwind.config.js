@@ -27,6 +27,7 @@ module.exports = {
         ftShape: "url('/images/ftShape.png')",
         tokenomicsBG: "url('/images/tokenomicmanimg.png')",
         NavBG: "url('/assets/navbar-bg.png')",
+         InputBG: "url('/assets/input-bg-design.png')",
       },
       colors: {
         secondary: "#6F767E",
