@@ -47,7 +47,7 @@ const Hero = () => {
               </h1>
               <Image
                 draggable="false"
-                className="sm:-mt-9 enjoy-img -mt-7 -ms-4 absolute lg:w-[385px] sm:w-[250px] w-[200px] "
+                className=" enjoy-img -mt-7 -ms-4 absolute lg:w-[385px] sm:w-[250px] w-[200px] "
                 src={Heroenjoy}
               />
             </div>
@@ -63,14 +63,14 @@ const Hero = () => {
             </p>
           </div>
           <div className="flex sm:gap-10 gap-4 items-center">
-            <button className="bg-[#F1A501] hover:bg-gray-100 border-2 hover:border-[#212832] transition-all duration-700 hover:text-[#212832] rounded-lg sm:h-[60px] max-sm:py-2 sm:text-lg text-sm font-medium text-white sm:px-5 px-3">
+            <button className="bg-[#F1A501] hover:bg-gray-100 border-2 hover:shadow-2xl transition-all duration-700 hover:text-[#212832] rounded-lg sm:h-[60px] max-sm:py-2 sm:text-lg text-sm font-medium text-white sm:px-5 px-3">
               Find out more
             </button>
-            <div className="flex items-center gap-5 hover:flex-row group cursor-pointer">
-              <span className="flex justify-center items-center text-white bg-[#DF6951] rounded-full sm:w-[50px] w-[30px] h-[30px] sm:h-[50px] transform transition-transform duration-1000 group-hover:translate-x-[80px]">
+            <div className="flex items-center gap-5 hover:flex-row group cursor-pointer px-2 hover:shadow-xl rounded-xl transition-shadow duration-1000">
+              <span className="flex justify-center items-center text-white bg-[#DF6951] rounded-full sm:w-[50px] w-[30px] h-[30px] sm:h-[50px] transform transition-transform duration-1000 group-hover:translate-x-[110px] max-sm:group-hover:translate-x-[100px]">
                 <IoPlaySharp />
               </span>
-              <p className="text-[#686D77] text-[17px] font-medium pt-5 transform transition-transform duration-1000 group-hover:-translate-x-[90px]">
+              <p className="text-[#686D77] text-[17px] font-medium pt-5 transform transition-transform duration-1000 group-hover:-translate-x-[60px] max-sm:group-hover:-translate-x-[50px]">
                 Play Demo
               </p>
             </div>

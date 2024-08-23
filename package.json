@@ -31,6 +31,7 @@
     "react-intersection-observer": "^9.5.3",
     "react-redux": "^8.1.2",
     "redux": "^4.2.1",
+    "swiper": "^11.1.10",
     "web3": "^1.7.3",
     "web3-eth-contract": "^4.1.0",
     "web3-utils": "^4.0.6",

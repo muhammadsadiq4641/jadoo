@@ -44,7 +44,7 @@ const Destination = () => {
       <Image
         src={Decoration}
         alt="decoration"
-        className="absolute max-sm:hidden -right-7 top-[25rem] z-[-1]"
+        className="absolute max-xl:hidden 2xl:-right-7 right-3 top-[20rem] 2xl:top-[25rem] z-[-1]"
       />
     </div>
   );
