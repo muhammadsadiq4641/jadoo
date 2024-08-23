@@ -3,7 +3,7 @@ import Navbar from "./navbar";
 import Hero from "./hero";
 import Category from "./category";
 import Destination from "./destination";
-import BookYourTrip from "./bookYourTrip";
+import BookYourTrip from "./bookYourTrip";       
 export default function Home() {
   return (
     <>
@@ -17,3 +17,4 @@ export default function Home() {
     </>
   );
 }
+

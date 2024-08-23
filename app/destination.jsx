@@ -41,7 +41,11 @@ const Destination = () => {
         ))}
       </div>
 
-      <Image src={Decoration} alt="decoration" className="absolute max-sm:hidden -right-7 top-[25rem] z-[-1]" />
+      <Image
+        src={Decoration}
+        alt="decoration"
+        className="absolute max-sm:hidden -right-7 top-[25rem] z-[-1]"
+      />
     </div>
   );
 };

@@ -45,7 +45,8 @@ const Hero = () => {
               <h1 className="lg:text-[84px] sm:text-[60px] text-[40px] z-10 font-bold font-Volkhov text-[#181E4B] leading-10 relative">
                 enjoy
               </h1>
-              <Image draggable="false"
+              <Image
+                draggable="false"
                 className="sm:-mt-9 enjoy-img -mt-7 -ms-4 absolute lg:w-[385px] sm:w-[250px] w-[200px] "
                 src={Heroenjoy}
               />
@@ -62,14 +63,14 @@ const Hero = () => {
             </p>
           </div>
           <div className="flex sm:gap-10 gap-4 items-center">
-            <button className="bg-[#F1A501] rounded-lg sm:h-[60px] max-sm:py-2 sm:text-lg text-sm font-medium text-white sm:px-5 px-3">
+            <button className="bg-[#F1A501] hover:bg-gray-100 border-2 hover:border-[#212832] transition-all duration-700 hover:text-[#212832] rounded-lg sm:h-[60px] max-sm:py-2 sm:text-lg text-sm font-medium text-white sm:px-5 px-3">
               Find out more
             </button>
-            <div className="flex items-center gap-5">
-              <span className="flex justify-center items-center text-white bg-[#DF6951] rounded-full sm:w-[50px] w-[30px] h-[30px] sm:h-[50px]">
+            <div className="flex items-center gap-5 hover:flex-row group cursor-pointer">
+              <span className="flex justify-center items-center text-white bg-[#DF6951] rounded-full sm:w-[50px] w-[30px] h-[30px] sm:h-[50px] transform transition-transform duration-1000 group-hover:translate-x-[80px]">
                 <IoPlaySharp />
               </span>
-              <p className="text-[#686D77] text-[17px] font-medium pt-5">
+              <p className="text-[#686D77] text-[17px] font-medium pt-5 transform transition-transform duration-1000 group-hover:-translate-x-[90px]">
                 Play Demo
               </p>
             </div>
@@ -79,7 +80,11 @@ const Hero = () => {
         {/* asd */}
 
         <div className="md:flex-1 md:justify-start md:flex">
-          <Image draggable="false" className="max-md:w-[300px]" src={HeroGirl} />
+          <Image
+            draggable="false"
+            className="max-md:w-[300px]"
+            src={HeroGirl}
+          />
         </div>
       </div>
       <div>
@@ -87,8 +92,8 @@ const Hero = () => {
 
         {showButton && (
           <div
-            onClick={handleClick }
-            className="fixed max-sm:right-4 max-sm:bottom-4 z-50 bottom-12 right-12 bg-black text-white p-2 rounded cursor-pointer transition-all"
+            onClick={handleClick}
+            className="fixed max-sm:right-4 max-sm:bottom-4 z-50 bottom-12 right-12 bg-black text-white hover:text-black hover:bg-transparent border-2 hover:border-[#212832] p-2 rounded cursor-pointer transition-all transform duration-700 hover:scale-75"
           >
             <RiArrowUpSLine />
           </div>

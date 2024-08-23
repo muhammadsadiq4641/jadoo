@@ -15,7 +15,7 @@ const volkhov = Volkhov({
 });
 
 export const metadata = {
-  title: "next starter kit",
+  title: "Jadoo",
   description: "$AMP (Algorithmic Monetary Policy)",
   icons: {
     icon: [{ url: "/favicon/favicon.png" }],
