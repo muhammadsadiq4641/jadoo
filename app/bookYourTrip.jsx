@@ -12,7 +12,7 @@ const BookYourTrip = () => {
         <div className="flex-1">
           <div className="text-xl font-bold text-[#5E6282]  relative">
             <p>Easy and Fast</p>
-            <h1 className="font-Volkhov sm:text-6xl text-2xl font-black">
+            <h1 className="font-Volkhov mb-14 sm:text-6xl text-2xl font-black">
               Book your next trip in 3 easy steps
             </h1>
           </div>
@@ -25,7 +25,7 @@ const BookYourTrip = () => {
                 <h2 className="text-base font-black text-[#5E6282] leading-3">
                   Choose Destination
                 </h2>
-                <p className="text-[#5e6282b4] w-[327px] max-sm:w-full text-base font-normal leading-4">
+                <p className="text-[#5e6282b4] w-[327px] max-sm:w-full sm:text-base text-xs font-normal leading-4">
                   {" "}
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
                   tortor tempus.{" "}
@@ -40,7 +40,7 @@ const BookYourTrip = () => {
                 <h2 className="text-base font-black text-[#5E6282] leading-3">
                   Make Payment
                 </h2>
-                <p className="text-[#5e6282b4] w-[327px] max-sm:w-full text-base font-normal leading-4">
+                <p className="text-[#5e6282b4] w-[327px] max-sm:w-full sm:text-base text-xs font-normal leading-4">
                   {" "}
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
                   tortor tempus.{" "}
@@ -55,7 +55,7 @@ const BookYourTrip = () => {
                 <h2 className="text-base font-black text-[#5E6282] leading-3">
                   Reach Airport on Selected Date
                 </h2>
-                <p className="text-[#5e6282b4] w-[327px] max-sm:w-full text-base font-normal leading-4">
+                <p className="text-[#5e6282b4] w-[327px] max-sm:w-full sm:text-base text-xs font-normal leading-4">
                   {" "}
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
                   tortor tempus.{" "}

@@ -31,7 +31,7 @@ const Testimonial = () => {
               <h1 className="text-[#5E6282] text-lg font-semibold uppercase">
                 Testimonials
               </h1>
-              <h2 className="font-Volkhov text-[#14183E] text-5xl font-extrabold">
+              <h2 className="font-Volkhov text-[#14183E] xl:text-6xl text-2xl font-extrabold">
                 What people say about Us.
               </h2>
             </div>{" "}
@@ -41,7 +41,7 @@ const Testimonial = () => {
               <h1 className="text-[#5E6282] text-lg font-semibold uppercase">
                 Testimonials
               </h1>
-              <h2 className="font-Volkhov text-[#14183E] text-5xl font-extrabold">
+              <h2 className="font-Volkhov text-[#14183E] xl:text-6xl text-2xl max-sm:mb-5 font-extrabold">
                 What people say about Us.
               </h2>
             </div>

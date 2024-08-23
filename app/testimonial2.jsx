@@ -18,7 +18,7 @@ const Testimonial2 = () => {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper w-full h-full sm:max-h-[500px] max-h-[150px] swiper-container"
+        className="mySwiper w-full h-full sm:max-h-[500px] max-h-[250px] swiper-container"
       >
         <SwiperSlide className="text-center flex items-center justify-center h-full">
           <Image className=" h-[100px]" src={TestimonialImg} />

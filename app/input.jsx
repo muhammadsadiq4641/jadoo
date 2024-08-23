@@ -23,7 +23,10 @@ const Inputz = () => {
             className="absolute w-full lg:h-[400px] h-[300px]"
             src={InputIMG}
           />
-          <Image className="absolute max-sm:hidden -right-5 -top-5" src={InputTelegram} />
+          <Image
+            className="absolute max-sm:hidden -right-5 -top-5"
+            src={InputTelegram}
+          />
           <div className="flex flex-col justify-center items-center  lg:h-[400px] h-[300px]">
             <h2 className="text-[#5E6282] text-[33px] font-semibold lg:w-[881px] sm:w-[500px] w-full px-5 max-lg:text-xl  text-center">
               Subscribe to get information, latest news and other interesting
@@ -42,7 +45,7 @@ const Inputz = () => {
               </div>
               <button
                 onClick={handleSearch}
-                className="ml-4 bg-[#ff8a6b] text-white  rounded-lg hover:scale-110 sm:px-6 px-3 me-2 h-[50px] transition-colors duration-1000"
+                className="relative z-10 ml-4 bg-[#ff8a6b] text-white rounded-lg sm:px-6 px-3 h-[50px] transition-transform duration-500 hover:scale-105 hover:bg-[#ff7043] hover:text-white"
               >
                 Subscribe
               </button>
