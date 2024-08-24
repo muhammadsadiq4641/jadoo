@@ -32,7 +32,7 @@ const Hero = () => {
     <div className="container mx-auto ">
       <div className="flex max-md:flex-col items-center h-calC100 ">
         <div className="md:flex-1">
-          <p className="text-[#DF6951] sm:text-xl text-md lg:pb-10 pb-2 max-sm:mt-4 font-extrabold tracking-wide uppercase">
+          <p className="text-[#DF6951] sm:text-xl text-md max-sm:mt-4 font-extrabold tracking-wide uppercase">
             Best Destinations around the world
           </p>
           <div className="flex items-center gap-3">
@@ -41,13 +41,13 @@ const Hero = () => {
                 Travel,
               </h1>
             </div>
-            <div>
-              <h1 className="lg:text-[84px] sm:text-[60px] text-[40px] z-10 font-bold font-Volkhov text-[#181E4B] leading-10 relative">
+            <div className="relative ">
+              <h1 className="lg:text-[84px] abs sm:text-[60px] text-[40px] z-10 font-bold font-Volkhov text-[#181E4B] leading-10 ">
                 enjoy
               </h1>
               <Image
                 draggable="false"
-                className=" enjoy-img -mt-7 -ms-4 absolute lg:w-[385px] sm:w-[250px] w-[200px] "
+                className=" enjoy-img bottom-7 -ms-4 absolute w-[585px] "
                 src={Heroenjoy}
               />
             </div>
@@ -66,11 +66,11 @@ const Hero = () => {
             <button className="bg-[#F1A501] hover:bg-gray-100 border-2 hover:shadow-2xl transition-all duration-700 hover:text-[#212832] rounded-lg sm:h-[60px] max-sm:py-2 sm:text-lg text-sm font-medium text-white sm:px-5 px-3">
               Find out more
             </button>
-            <div className="flex items-center gap-5 hover:flex-row group cursor-pointer px-2 hover:shadow-xl rounded-xl transition-shadow duration-1000">
-              <span className="flex justify-center items-center text-white bg-[#DF6951] rounded-full sm:w-[50px] w-[30px] h-[30px] sm:h-[50px] transform transition-transform duration-1000 group-hover:translate-x-[110px] max-sm:group-hover:translate-x-[100px]">
+            <div className="flex items-end gap-5 hover:flex-row group cursor-pointer px-2 hover:shadow-xl rounded-xl transition-shadow duration-1000">
+              <div className="flex justify-center items-center text-white bg-[#DF6951] rounded-full sm:w-[50px] w-[30px] h-[30px] sm:h-[50px] transform transition-transform duration-1000 group-hover:translate-x-[110px] max-sm:group-hover:translate-x-[100px]">
                 <IoPlaySharp />
-              </span>
-              <p className="text-[#686D77] text-[17px] font-medium pt-5 transform transition-transform duration-1000 group-hover:-translate-x-[60px] max-sm:group-hover:-translate-x-[50px]">
+              </div>
+              <p className="text-[#686D77] text-[17px] my-auto flex items-center font-medium  transform transition-transform duration-1000 group-hover:-translate-x-[60px] max-sm:group-hover:-translate-x-[50px]">
                 Play Demo
               </p>
             </div>

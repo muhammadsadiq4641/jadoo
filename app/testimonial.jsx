@@ -8,7 +8,7 @@ import { Pagination } from "swiper/modules";
 const Testimonial = () => {
   return (
     <>
-      <div className=" pe-8 flex flex-col items-center justify-center">
+      <div className="my-5 flex flex-col items-center justify-center">
         <Swiper
           pagination={{
             dynamicBullets: true,

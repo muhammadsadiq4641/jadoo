@@ -8,6 +8,7 @@ import Testimonial from "./testimonial";
 import Testimonial2 from "./testimonial2";
 import Inputz from "./input";
 import Axon from "./axon";
+import Footer from "./footer";
 export default function Home() {
   return (
     <>
@@ -24,6 +25,7 @@ export default function Home() {
       </div>
       <Axon />
       <Inputz />
+      <Footer />
     </>
   );
 }
