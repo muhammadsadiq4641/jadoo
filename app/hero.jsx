@@ -42,12 +42,12 @@ const Hero = () => {
               </h1>
             </div>
             <div className="relative ">
-              <h1 className="lg:text-[84px] abs sm:text-[60px] text-[40px] z-10 font-bold font-Volkhov text-[#181E4B] leading-10 ">
+              <h1 className="lg:text-[84px] abs sm:text-[60px] text-[40px] z-10 font-bold font-Volkhov text-[#181E4B] leading-10  ">
                 enjoy
               </h1>
               <Image
                 draggable="false"
-                className=" enjoy-img bottom-7 -ms-4 absolute w-[585px] "
+                className=" enjoy-img  -ms-4 absolute w-[585px] "
                 src={Heroenjoy}
               />
             </div>
