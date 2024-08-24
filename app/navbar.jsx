@@ -31,8 +31,8 @@ const Navbar = () => {
           <a className="hover:shadow-md bg-opacity-30 duration-500 rounded px-2 hover:text-gray-400 font-sans text-[17px] font-medium text-[#212832]" draggable="false" href="#asd">Bookings</a>
           <a className="hover:shadow-md bg-opacity-30 duration-500 rounded px-2 hover:text-gray-400 font-sans text-[17px] font-medium text-[#212832]" draggable="false" href="#asd">Login</a>
           <button className="font-sans text-[17px] font-medium text-[#212832] border-[1px] border-[#212832] rounded h-[40px] px-5 hover:bg-[#F1A501] hover:border-white transition-all duration-700 hover:text-white">Sign up</button>
-          <div className="cursor-pointer hover:scale-125 transition-transform justify-center -mb-4 hover:flex-row group flex items-center">
-          <p className="font-sans text-[17px] font-medium text-[#212832] transform transition-transform duration-1000 group-hover:translate-x-[15px]">EN </p>
+          <div className="cursor-pointer hover:scale-125 transition-transform justify-center hover:flex-row group flex items-center  bg-red-50">
+          <p className="font-sans text-[17px] font-medium text-[#212832] transform transition-transform duration-1000  group-hover:translate-x-[15px]">EN </p>
           <p><MdKeyboardArrowDown className="text-xl transform transition-transform duration-1000 group-hover:translate-x-[-25px]"/></p>
           </div>
         </div>
